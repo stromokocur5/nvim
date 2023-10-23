@@ -1,4 +1,4 @@
-#Installation
+# Installation
 clone the config and packer
 ```sh
 git clone https://git.stromokocur5.tech/stromokocur/nvim ~/.config/nvim
