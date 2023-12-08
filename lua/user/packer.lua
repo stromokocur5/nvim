@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
   use({ 'rose-pine/neovim',
   as = 'rose-pine',
   config = function()
-	vim.cmd("colorscheme rose-pine-main")
+	vim.cmd("colorscheme peachpuff")
   end
   })
   use 'sigmasd/deno-nvim'
