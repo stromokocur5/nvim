@@ -6,10 +6,10 @@ return require('packer').startup(function(use)
   'nvim-telescope/telescope.nvim', tag = '0.1.4',
   requires = { {'nvim-lua/plenary.nvim'} }
 }
-  use({ 'rose-pine/neovim',
-  as = 'rose-pine',
+ use({ 'talha-akram/noctis.nvim',
+  as = 'noctis',
   config = function()
-	vim.cmd("colorscheme peachpuff")
+	vim.cmd("colorscheme noctis_bordo")
   end
   })
   use 'sigmasd/deno-nvim'

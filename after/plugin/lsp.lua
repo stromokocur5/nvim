@@ -6,7 +6,7 @@ lsp_zero.on_attach(function(client, bufnr)
   lsp_zero.default_keymaps({buffer = bufnr})
 end)
 
-lsp_zero.setup_servers({'lua_ls', 'rust_analyzer','denols','hls','pylsp','clangd','zls','gopls','ansiblels'})
+lsp_zero.setup_servers({'lua_ls', 'rust_analyzer','denols','hls','pylsp','clangd','zls','gopls','ansiblels','templ'})
 
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
